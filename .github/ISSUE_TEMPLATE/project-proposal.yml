@@ -1,0 +1,113 @@
+name: Project Proposal
+description: Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
+title: "[Title]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the project in a short paragraph
+  - type: input
+    id: team_name
+    attributes:
+      label: Team Name
+      description: Unique non-offensive name
+      placeholder: ex. Jedi
+    validations:
+      required: True
+
+  - type: input
+    id: member1
+    attributes:
+      label: Team Member 1 Name
+      label: Team Member 1 Id
+      placeholder: e.g. 201111002
+      label: Team Member 1 Email
+    validations:
+      required: True
+  - type: input
+    id: member2
+    attributes:
+      label: Team Member 2 Name
+      label: Team Member 2 Id
+      placeholder: e.g. 201111002 
+      label: Team Member 2 Email
+    validations:
+      required: True
+  - type: input
+    id: member2
+    attributes:
+      label: Team Member 3 Name
+      label: Team Member 3 Id
+      placeholder: e.g. 201111002
+      label: Team Member 3 Email
+    validations:
+      required: True
+  - type: input
+    id: member1
+    attributes:
+      label: Team Member 4 Name
+      label: Team Member 4 Id
+      placeholder: e.g. 201111002
+      label: Team Member 4 Email
+    validations:
+      required: True
+
+
+  - type: input
+    id: email
+    attributes: 
+      label: Email
+      description: Primary Contact Email  
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem Statement
+      description: Describe the project problem statement in brief
+      placeholder: Ex. Inventing a new similarity measure using wordnet
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What best describes your problem statement
+      options:
+        - New Research Problem
+        - Evaluation Track Problem
+        - Reproducibility
+        - Optimizing an existing system
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation Strategy
+      description: How will you evaluate the outcome?
+      placeholder: Ex. Making terrier x% faster, or achieving results with 5% error rate from an existing paper. You can also include specific metrics 
+      where paplicable e.g. ROUGE score for summarization or Precision, recall F-score for classification.
+    validations:
+      required: True
+
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset
+      description: Is a dataset available for evalaution the project outcome? If yes provide a link. If no provide justification of 
+      why a dataset might not be required for evaluation of your project.
+      placeholder: ex. ILSUM 2024 Dataset. Link: ilsum.github.io
+    validations:
+      required: True
+
+  - type: input
+    id: Resources
+    attributes:
+      label: Resources
+      description: Any relevant resources that you will be using for the project. This can include links to papers, github repositories, 
+      links to evaluation forum tracks, etc. Do not include commonly known resources like a specific nlp or ml library.
+      placeholder: ex. Paper Title: Can LLM-Generated Misinformation Be Detected? Paper link: https://arxiv.org/abs/2309.13788
+    validations:
+      required: True
