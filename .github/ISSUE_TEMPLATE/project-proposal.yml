@@ -1,7 +1,7 @@
 name: Project Proposal
 description: |
   Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
-   E.g. Making elasticsearch more efficient using sharpened cosine similarity
+  E.g. Making elasticsearch more efficient using sharpened cosine similarity
 body:      
   - type: input
     id: team_name
