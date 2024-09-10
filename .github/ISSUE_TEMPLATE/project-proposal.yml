@@ -125,11 +125,15 @@ body:
     validations:
       required: True
 
-  - type: input
+  - type: textarea
     id: Resources
     attributes:
       label: Resources
-      description: Any relevant resources that you will be using for the project. This can include links to papers, github repositories, links to evaluation forum tracks, etc. Do not include commonly known resources like a specific nlp or ml library.
+      description: | 
+      Any relevant resources that you will be using for the project. 
+      This can include links to papers, github repositories, links to evaluation forum tracks, etc. 
+      Do not include commonly known resources like a specific nlp or ml library.
+      
       placeholder: ex. Paper Title - Can LLM-Generated Misinformation Be Detected? Paper link - https://arxiv.org/abs/2309.13788
     validations:
       required: True
