@@ -1,6 +1,6 @@
 name: Project Proposal
 description: Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
-title: "[Title]: "
+title: ""
 body:
   - type: markdown
     attributes:
@@ -11,7 +11,7 @@ body:
     attributes:
       label: Team Name
       description: Unique non-offensive name
-      placeholder: ex. Jedi
+      placeholder: Jedi
     validations:
       required: True
 
@@ -20,7 +20,7 @@ body:
     attributes: 
       label: Email
       description: Primary Contact Email  
-      placeholder: ex. email@example.com
+      placeholder: email@example.com
     validations:
       required: True
 
@@ -35,7 +35,7 @@ body:
     id: member1_id
     attributes:      
       label: Team Member 1 Id
-      placeholder: e.g. 201111002
+      placeholder: 201111002
     validations:
       required: True
 
@@ -50,7 +50,7 @@ body:
     id: member2_id
     attributes:      
       label: Team Member 2 Id
-      placeholder: e.g. 201111002
+      placeholder: 201111002
     validations:
       required: True
 
@@ -65,7 +65,7 @@ body:
     id: member3_id
     attributes:      
       label: Team Member 3 Id
-      placeholder: e.g. 201111002
+      placeholder: 201111002
     validations:
       required: True
 
@@ -79,7 +79,7 @@ body:
     id: member4_id
     attributes:      
       label: Team Member 4 Id
-      placeholder: e.g. 201111002
+      placeholder: 201111002
     validations:
       required: True
 
@@ -91,7 +91,7 @@ body:
     attributes:
       label: Problem Statement
       description: Describe the project problem statement in brief
-      placeholder: Ex. Inventing a new similarity measure using wordnet
+      placeholder: Inventing a new similarity measure using wordnet
     validations:
       required: true
   - type: dropdown
@@ -113,7 +113,7 @@ body:
       label: Evaluation Strategy
       description: How will you evaluate the outcome?
       placeholder: |
-        Ex. Making terrier x% faster, or achieving results with 5% error rate from an existing paper. 
+        Making terrier x% faster, or achieving results with 5% error rate from an existing paper. 
         You can also include specific metrics where paplicable e.g. ROUGE score for summarization or Precision, recall F-score for classification.
     validations:
       required: True
@@ -125,7 +125,7 @@ body:
       description: |
         Is a dataset available for evalaution the project outcome? If yes provide a link. 
         If no provide justification of why a dataset might not be required for evaluation of your project.
-      placeholder: ex. ILSUM 2024 Dataset. Link - ilsum.github.io
+      placeholder: ILSUM 2024 Dataset. Link - ilsum.github.io
     validations:
       required: True
 
@@ -138,7 +138,7 @@ body:
         This can include links to papers, github repositories, links to evaluation forum tracks, etc.
         Do not include commonly known resources like a specific nlp or ml library.
       placeholder: |
-        ex. Paper Title - Can LLM-Generated Misinformation Be Detected?
+        Paper Title - Can LLM-Generated Misinformation Be Detected?
         Paper link - https://arxiv.org/abs/2309.13788
     validations:
       required: True
