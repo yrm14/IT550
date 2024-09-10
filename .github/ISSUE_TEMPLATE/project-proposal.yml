@@ -34,7 +34,7 @@ body:
     validations:
       required: True
   - type: input
-    id: member2
+    id: member3
     attributes:
       label: Team Member 3 Name
       label: Team Member 3 Id
@@ -43,7 +43,7 @@ body:
     validations:
       required: True
   - type: input
-    id: member1
+    id: member4
     attributes:
       label: Team Member 4 Name
       label: Team Member 4 Id
