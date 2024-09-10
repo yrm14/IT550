@@ -1,16 +1,8 @@
 name: Project Proposal
-description: Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
-body:
-  - type: markdown
-    attributes:
-      value: "### Title: Please provide a concise and descriptive title for your project proposal." 
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Project Title
-      placeholder: Making elasticsearch more efficient using sharpened cosine similarity
-      
+description: |
+  Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
+   E.g. Making elasticsearch more efficient using sharpened cosine similarity
+body:      
   - type: input
     id: team_name
     attributes:
