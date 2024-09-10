@@ -16,44 +16,6 @@ body:
       required: True
 
   - type: input
-    id: member1
-    attributes:
-      label: Team Member 1 Name
-      label: Team Member 1 Id
-      placeholder: e.g. 201111002
-      label: Team Member 1 Email
-    validations:
-      required: True
-  - type: input
-    id: member2
-    attributes:
-      label: Team Member 2 Name
-      label: Team Member 2 Id
-      placeholder: e.g. 201111002 
-      label: Team Member 2 Email
-    validations:
-      required: True
-  - type: input
-    id: member3
-    attributes:
-      label: Team Member 3 Name
-      label: Team Member 3 Id
-      placeholder: e.g. 201111002
-      label: Team Member 3 Email
-    validations:
-      required: True
-  - type: input
-    id: member4
-    attributes:
-      label: Team Member 4 Name
-      label: Team Member 4 Id
-      placeholder: e.g. 201111002
-      label: Team Member 4 Email
-    validations:
-      required: True
-
-
-  - type: input
     id: email
     attributes: 
       label: Email
@@ -61,6 +23,69 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: True
+
+
+  - type: input
+    id: member1_name
+    attributes:
+      label: Team Member 1 Name
+    validations:
+      required: True
+  - type: input
+    id: member1_id
+    attributes:      
+      label: Team Member 1 Id
+      placeholder: e.g. 201111002
+    validations:
+      required: True
+
+
+  - type: input
+    id: member2_name
+    attributes:
+      label: Team Member 2 Name
+    validations:
+      required: True
+  - type: input
+    id: member2_id
+    attributes:      
+      label: Team Member 2 Id
+      placeholder: e.g. 201111002
+    validations:
+      required: True
+
+
+  - type: input
+    id: member3_name
+    attributes:
+      label: Team Member 3 Name
+    validations:
+      required: True
+  - type: input
+    id: member3_id
+    attributes:      
+      label: Team Member 3 Id
+      placeholder: e.g. 201111002
+    validations:
+      required: True
+
+  - type: input
+    id: member4_name
+    attributes:
+      label: Team Member 4 Name
+    validations:
+      required: True
+  - type: input
+    id: member4_id
+    attributes:      
+      label: Team Member 4 Id
+      placeholder: e.g. 201111002
+    validations:
+      required: True
+
+
+
+
   - type: textarea
     id: problem_statement
     attributes:
