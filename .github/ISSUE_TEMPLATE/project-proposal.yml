@@ -2,7 +2,7 @@ name: Project Proposal
 description: Proposal for the course project for Introduction to Information Retrieval (IT-550) Autumn 2024
 body:
  
-   - type: input
+  - type: input
     id: title
     attributes:
       label: Title
