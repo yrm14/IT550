@@ -117,7 +117,8 @@ body:
       description: How will you evaluate the outcome?
       placeholder: |
         Making terrier x% faster, or achieving results with 5% error rate from an existing paper. 
-        You can also include specific metrics where paplicable e.g. ROUGE score for summarization or Precision, recall F-score for classification.
+        You can also include specific metrics where paplicable 
+        e.g. ROUGE score for summarization or Precision, recall F-score for classification.
     validations:
       required: True
 
@@ -128,7 +129,9 @@ body:
       description: |
         Is a dataset available for evalaution the project outcome? If yes provide a link. 
         If no provide justification of why a dataset might not be required for evaluation of your project.
-      placeholder: ILSUM 2024 Dataset. Link - ilsum.github.io
+      placeholder: |
+        ILSUM 2024 Dataset. 
+        Link - ilsum.github.io
     validations:
       required: True
 
