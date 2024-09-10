@@ -88,15 +88,6 @@ body:
 
 
 
-
-  - type: textarea
-    id: problem_statement
-    attributes:
-      label: Problem Statement
-      description: Describe the project problem statement in brief
-      placeholder: Inventing a new similarity measure using wordnet
-    validations:
-      required: true
   - type: dropdown
     id: category
     attributes:
@@ -108,6 +99,15 @@ body:
         - Reproducibility
         - Optimizing an existing system
       default: 0
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem Statement
+      description: Describe the project problem statement in brief
+      placeholder: The project is aimed at ...
+    validations:
+      required: true
     validations:
       required: true
   - type: textarea
