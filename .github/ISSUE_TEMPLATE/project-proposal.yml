@@ -113,8 +113,8 @@ body:
       label: Evaluation Strategy
       description: How will you evaluate the outcome?
       placeholder: |
-      	Ex. Making terrier x% faster, or achieving results with 5% error rate from an existing paper. 
-      	You can also include specific metrics where paplicable e.g. ROUGE score for summarization or Precision, recall F-score for classification.
+        Ex. Making terrier x% faster, or achieving results with 5% error rate from an existing paper. 
+        You can also include specific metrics where paplicable e.g. ROUGE score for summarization or Precision, recall F-score for classification.
     validations:
       required: True
 
@@ -123,8 +123,8 @@ body:
     attributes:
       label: Dataset
       description: |
-      	Is a dataset available for evalaution the project outcome? If yes provide a link. 
-      	If no provide justification of why a dataset might not be required for evaluation of your project.
+        Is a dataset available for evalaution the project outcome? If yes provide a link. 
+        If no provide justification of why a dataset might not be required for evaluation of your project.
       placeholder: ex. ILSUM 2024 Dataset. Link - ilsum.github.io
     validations:
       required: True
@@ -134,11 +134,11 @@ body:
     attributes:
       label: Resources
       description: | 
-      	Any relevant resources that you will be using for the project.
-      	This can include links to papers, github repositories, links to evaluation forum tracks, etc.
-      	Do not include commonly known resources like a specific nlp or ml library.
+        Any relevant resources that you will be using for the project.
+        This can include links to papers, github repositories, links to evaluation forum tracks, etc.
+        Do not include commonly known resources like a specific nlp or ml library.
       placeholder: |
-      	ex. Paper Title - Can LLM-Generated Misinformation Be Detected?
-      	Paper link - https://arxiv.org/abs/2309.13788
+        ex. Paper Title - Can LLM-Generated Misinformation Be Detected?
+        Paper link - https://arxiv.org/abs/2309.13788
     validations:
       required: True
