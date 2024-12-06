@@ -1,4 +1,6 @@
 | id  | Title              | Year       | Report                                   | PPT                                   |
 |-----|--------------------|------------|------------------------------------------|---------------------------------------|
-| 0   | Sample Entry      | Autumn 2024 | | <a href="./reports/spir0468-mitra.pdf" download>Report</a> | <a href="./presentations/IT550-Introduction_to_Information_Retrieval.pptx" download>PPT</a> |
+| 0   | Sample Entry      | Autumn 2024 | | Report[https://raw.githubusercontent.com/parth126/IT550/main/reports/spir0468-mitra.pdf]| PPT[https://raw.githubusercontent.com/parth126/IT550/main//presentations/IT550-Introduction_to_Information_Retrieval.pptx] |
 ``
+
+presentations/IT550-Introduction_to_Information_Retrieval.pptx
